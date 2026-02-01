@@ -33,7 +33,10 @@
 ## 界面预览
 
 <div align="center">
-  <img width="100%" alt="主界面预览" src="https://github.com/user-attachments/assets/8a33abf6-1fbc-48de-bde6-c063672c4710" style="border-radius: 8px; border: 1px solid #30363d;" />
+  <img width="100%" alt="主界面预览" src="https://github.com/user-attachments/assets/0c4c90c6-feed-46ec-81ee-f3bcdeb0cb8b" style="border-radius: 8px; border: 1px solid #30363d;" />
+<blockquote>主界面编辑预览</blockquote>
+  <img width="100%" alt="主界面预览" src="https://github.com/user-attachments/assets/19583ef0-64b6-4ddd-85cf-a848cfb17c4f" style="border-radius: 8px; border: 1px solid #30363d;" />
+<blockquote>主界面全预览</blockquote>
 </div>
 
 <br>
@@ -87,7 +90,7 @@
   </tr>
   <tr>
     <td valign="top">
-      <img width="100%" alt="LaTeX 预览" src="https://github.com/user-attachments/assets/4fca1702-8c8e-4d9f-aca0-74e4b918432e" style="border-radius: 6px; border: 1px solid #d0d7de;" />
+      <img width="100%" alt="LaTeX 预览" src="https://github.com/user-attachments/assets/dec9b7c4-d489-481e-8931-d2b2d79936a1" style="border-radius: 6px; border: 1px solid #d0d7de;" />
       <br><br>
       <details>
         <summary><b>常用 LaTeX 公式示例</b></summary>
@@ -114,7 +117,7 @@ $$f(x) = \begin{cases} x^2 & x \geq 0 \\ -x & x < 0 \end{cases}$$
       </details>
     </td>
     <td valign="top">
-      <img width="100%" alt="Emoji 预览" src="https://github.com/user-attachments/assets/cec57d64-3a90-4c58-896c-73681068a86c" style="border-radius: 6px; border: 1px solid #d0d7de;" />
+      <img width="100%" alt="Emoji 预览" src="https://github.com/user-attachments/assets/1fb91b6d-afa2-488b-83ee-891683db08e0" style="border-radius: 6px; border: 1px solid #d0d7de;" />
       <br><br>
       <details>
         <summary><b>支持的 Emoji 列表</b></summary>
@@ -136,7 +139,7 @@ $$f(x) = \begin{cases} x^2 & x \geq 0 \\ -x & x < 0 \end{cases}$$
 :dog: :cat: :mouse: :rabbit: :fox: :bear: :panda: :tiger: :lion: :pig: :frog: :monkey: :unicorn: :butterfly: :dolphin: :shark:
 
 **🍎 其他**
-:apple: :banana: :coffee: :beer: :rocket: :tada: :warning: :question: :100:
+:apple: :banana: :coffee: :beer: :rocket: :tada: :warning: :question:
       </details>
     </td>
   </tr>
@@ -144,13 +147,20 @@ $$f(x) = \begin{cases} x^2 & x \geq 0 \\ -x & x < 0 \end{cases}$$
 
 ## 安装
 
-### macOS
+支持跨平台安装，目前支持一下平台
+1. Mac（Apple Silicon/Intel）
+2. Windows
+3. Ubuntu（x86/arm64）
 
-从 [Releases](../../releases) 下载最新版本的 `.dmg` 文件，拖拽到 `Applications` 文件夹即可。
+从 [Releases](../../releases) 下载最新版本的安装文件进行安装。
 
-> [!NOTE]
+> [!TIP]
 > **首次打开提示 "无法验证开发者"?**
+> 
 > 请前往「系统设置 > 隐私与安全性」，在安全性部分点击“仍要打开”。
+> 
+> 高版本则需要执行命令 `sudo xattr -r -d com.apple.quarantine /Applications/轻渡.app`
+
 
 ## 使用指南
 
@@ -160,16 +170,18 @@ $$f(x) = \begin{cases} x^2 & x \geq 0 \\ -x & x < 0 \end{cases}$$
 * **打开 Git 仓库**：克隆并接管远程仓库，实现云端同步。
 
 <p align="center">
-<img width="400" alt="工作区选择" src="https://github.com/user-attachments/assets/9768e5d8-f87c-4a20-a22e-86ee519edeb5" style="border-radius: 6px; border: 1px solid #d0d7de;" />
+<img width="400" alt="工作区选择" src="https://github.com/user-attachments/assets/efba543d-b3cb-4524-8a54-acfe20712057" style="border-radius: 6px; border: 1px solid #d0d7de;" />
 </p>
+
 
 ### 2. 标准化写作
 **轻渡** 内置了智能的 **Front Matter 脚手架**。
 在新建文章或页面时，编辑器会通过可视化引导，协助你快速生成符合规范的头部元数据（如标题、日期、标签等），无需手动编写繁琐的 YAML 格式。
 
 <p align="center">
-<img width="400" alt="Front Matter 引导" src="https://github.com/user-attachments/assets/ccd0c596-1fcd-47ca-9b3a-edf2ad531d12" style="border-radius: 6px; border: 1px solid #d0d7de;" />
+<img width="400" alt="Front Matter 引导" src="https://github.com/user-attachments/assets/1a5dd6f7-08ea-4061-bb04-6117dc820860" style="border-radius: 6px; border: 1px solid #d0d7de;" />
 </p>
+
 
 ### 3. 智能图像流水线
 体验极致的“拖拽即发布”流程。你只需将图片拖入或粘贴至编辑器，**轻渡** 将自动在后台并发处理以下任务：
