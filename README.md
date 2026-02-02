@@ -147,7 +147,7 @@ $$f(x) = \begin{cases} x^2 & x \geq 0 \\ -x & x < 0 \end{cases}$$
 
 ## 安装
 
-支持跨平台安装，目前支持一下平台
+支持跨平台安装，目前支持以下平台
 1. Mac（Apple Silicon/Intel）
 2. Windows
 3. Ubuntu（x86/arm64）
